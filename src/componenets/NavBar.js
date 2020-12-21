@@ -10,29 +10,23 @@ function NavBar() {
                 <nav className="flex">
                     <NavLink to="/"
                     exact  
-                    className="man inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-600 "
+                    className="man inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-200 "
                     activeClassName="text-red-100 bg-red-600"
                     >
                     
                        <h1>MyBlog</h1> 
                     </NavLink>
                     <NavLink to="/post" 
-                    className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-600"
+                    className="inflex-flex items-center py-3 px-10 my-6 ml-4 rounded text-red-100 hover:text-green-200"
                     activeClassName="text-red-100 bg-red-700"
                     >
-                        Blogs 
-                    </NavLink>
-                    <NavLink to="/project" 
-                    className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-600"
-                    activeClassName="text-red-100 bg-red-700"
-                    >
-                        Work
+                       <h1>Blogs </h1> 
                     </NavLink>
                     <NavLink to="/about"  
-                    className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-600"
+                    className="inflex-flex items-center py-3 px-5 my-6 rounded text-red-100 hover:text-green-200"
                     activeClassName="text-red-100 bg-red-700"
                     >
-                        About
+                        <h2>About </h2>
                     </NavLink>
 
                 </nav>

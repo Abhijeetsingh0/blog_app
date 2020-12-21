@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 .man{
     font-size: 40px;
-    font-family: 'East Sea Dokdo', cursive;
+    font-family: 'Amatic SC', cursive;
     padding-top: 15px;
     padding-right: 170px;
 }
 h1{
     text-align: center;
  }
+
  .imageContainer {
     margin-left:auto;
     position: relative;
-    color: rgb(106, 243, 209);
+    color: #f0e0fa;
+    background: purple;
  }
  .caption{
     font-size: 30px;
@@ -30,4 +33,44 @@ h1{
  .imagesiize{
    width: 100%;
    height: auto;
+ }
+
+.footer{
+   background: #72d5f388;
+   height:200px;
+   margin-top: 70px;
+}
+/* 
+Grid system of footer */
+
+.grid-container {
+   display: grid;
+   justify-content: space-evenly;
+   grid-template-columns: 20px 20px 130px; /*Make the grid smaller than the container*/
+   grid-gap: 0px;
+   padding: 6px;
+ }
+ 
+ .grid-container > div {
+   text-align: center;
+   padding: 0px 0;
+   font-size: 20px;
+ }
+
+ .whiteClo{
+    color: rgb(15, 15, 15);
+ }
+
+ .textSize{
+    font-size: 50px;
+ }
+
+
+ .postBg{
+    background: #6bcdeb88;
+    background-size: cover; /* Resize the background image to cover the entire container */
+ }
+
+ .man2{
+    background-color:#6bcdeb88;
  }

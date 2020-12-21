@@ -4,6 +4,9 @@ import imageUrlBuilder from '@sanity/image-url';
 import BlockContent from '@sanity/block-content-to-react';
 import sanityClient from '../client';
 
+
+import BottomBar from "./BottomBar";
+
 const builder = imageUrlBuilder(sanityClient);
 
 function urlFor(source) {
@@ -39,7 +42,7 @@ function SinglePost() {
   if (!singlePost) return <div>Loading...</div>;
 
   return (
-    <main className='bg-gray-200 min-h-screen p-12'>
+    <main className='bg-gray-200 min-h-screen p-12 postBg'>
       <article className='container shadow-xl mx-auto bg-green-100 rounded-lg'>
         <header className='relative'>
           <div className='absolute h-full w-full flex items-center justify-center p-8'>
@@ -76,6 +79,7 @@ function SinglePost() {
           />
         </div>
       </article>
+      <BottomBar/>
     </main>
   );
 }
