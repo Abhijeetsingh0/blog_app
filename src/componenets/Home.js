@@ -1,6 +1,6 @@
 import React from 'react';
 import "./style.css";
-import Image from '../image/Image1.png'
+import Image from "./Image1.png";
 import BottomBar from "./BottomBar";
 
 function Home() {
