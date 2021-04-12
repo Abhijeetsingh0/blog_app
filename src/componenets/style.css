@@ -15,7 +15,6 @@ h1{
     margin-left:auto;
     position: relative;
     color: #f0e0fa;
-    background: purple;
  }
  .caption{
     font-size: 30px;
@@ -36,7 +35,7 @@ h1{
  }
 
 .footer{
-   background: #72d5f388;
+   background: 78b5c4;
    height:200px;
    margin-top: 70px;
 }
@@ -72,9 +71,9 @@ Grid system of footer */
  }
 
  .man2{
-    background-color:#6bcdeb88;
+    background-color : #78b5c4;
  }
 
- .navS{
-    padding-left: 100px;
+ .mann1{
+    padding-right: 00px;
  }

@@ -17,13 +17,13 @@ function NavBar() {
                        <h1>MyBlog</h1> 
                     </NavLink>
                     <NavLink to="/post" 
-                    className="inflex-flex items-center py-3 px-27 my-6 ml-4 rounded text-red-100 hover:text-green-200"
+                    className="mann1 inflex-flex items-center py-3 px-27 my-6 ml-4 rounded text-red-100 hover:text-green-200"
                     activeClassName="text-red-100 bg-red-700"
                     >
                        <h1>Blogs </h1> 
                     </NavLink>
                     <NavLink to="/about"  
-                    className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-100 hover:text-green-200"
+                    className=" mann1 inflex-flex items-center py-3 px-3 my-6 rounded text-red-100 hover:text-green-200"
                     activeClassName="text-red-100 bg-red-700"
                     >
                         <h2>About </h2>
