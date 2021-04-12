@@ -1,13 +1,13 @@
 import React from 'react';
 import "./style.css";
-import Imagee from "../image/Image1.png";
+import Image from '../image/Image1.png'
 import BottomBar from "./BottomBar";
 
 function Home() {
     return (
         <main className="man2">
             <div className="imageContainer">
-            <img src={Imagee} alt="homeImage"  />
+            <img src={Image} alt="homeImage"  />
             {/* <Image /> */}
             </div>
             <div>
