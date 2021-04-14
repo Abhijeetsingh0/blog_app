@@ -42,7 +42,7 @@ function SinglePost() {
   if (!singlePost) return <div>Loading...</div>;
 
   return (
-    <main className='bg-gray-200 min-h-screen p-12 postBg'>
+    <main className='bg-gray-200 min-h-screen p-7 postBg'>
       <article className='container shadow-xl mx-auto bg-green-100 rounded-lg'>
         <header className='relative'>
           <div className='absolute h-full w-full flex items-center justify-center p-8'>
@@ -71,7 +71,7 @@ function SinglePost() {
           />
         </header>
 
-        <div className='px-16 lg:px-48 py-12 lg:py-20 prose lg:prose-xl max-w-full'>
+        <div className='px-16 lg:px-18 py-12 lg:py-20 prose lg:prose-xl max-w-full'>
           <BlockContent
             blocks={singlePost.body}
             projectId='wjzl63om'
