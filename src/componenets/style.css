@@ -37,7 +37,7 @@ h1{
 .footer{
    background: 78b5c4;
    height:200px;
-   margin-top: 70px;
+   margin-top: 30px;
 }
 /* 
 Grid system of footer */
@@ -68,12 +68,4 @@ Grid system of footer */
  .postBg{
     background:#78b5c4;
     background-size: cover; /* Resize the background image to cover the entire container */
- }
-
- .man2{
-    background-color :#78b5c4;
- }
-
- .mann1{
-    padding-right: 00px;
  }
